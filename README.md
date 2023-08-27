@@ -44,7 +44,9 @@ npm run cypress:open
 ## Possible `larvis` improvements
 
 1. There seems to be an issue with CORS - I used a browser plugin to bypass it.
-2. Using `HttpOnlyCookie` could be more secure authentication solution than JWT.
+2. Using `HttpOnly Cookie` could be more secure authentication solution than JWT.
+3. Sorting and pagination in `acquisitions` could be done on server side with a parameter by which value sorting should be done.
+4. When fetching `acquisitions` there could be a date range available
 
 ## Other notes
 
